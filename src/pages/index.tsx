@@ -1,11 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import Head from "next/head";
+import Link from "next/link";
+import { Button, NavList } from "@primer/react";
+import { BaseStyles, Box, Heading } from "@primer/react";
+import { useRouter } from "next/router";
+import { useState } from "react";
 
 export default function Home() {
+  const [alwaysOpen, setAlwaysOpen] = useState(false);
   return (
     <>
       <Head>
@@ -14,101 +15,83 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.tsx</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
-          </div>
-        </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-        </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
-        </div>
+      <main>
+        <BaseStyles>
+          <Heading>Hi there</Heading>
+          <Button onClick={() => setAlwaysOpen((p) => !p)}>
+            {alwaysOpen ? "Close" : "Open"}
+          </Button>
+          <NList alwaysOpen={alwaysOpen} />
+        </BaseStyles>
       </main>
     </>
-  )
+  );
+}
+
+function NList({ alwaysOpen }: { alwaysOpen?: boolean }) {
+  const { asPath } = useRouter();
+
+  return (
+    <NavList>
+      <NavList.Item
+        href="/"
+        as={Link}
+        aria-current={asPath === "/" ? "page" : undefined}
+      >
+        Home
+      </NavList.Item>
+      <NavList.Item
+        href="/about"
+        as={Link}
+        aria-current={asPath === "/about" ? "page" : undefined}
+        defaultOpen={alwaysOpen}
+      >
+        About
+        <NavList.SubNav>
+          <NavList.Item
+            href="/about/things"
+            aria-current={asPath === "/about/things" ? "page" : undefined}
+            as={Link}
+          >
+            Things
+          </NavList.Item>
+          <NavList.Item
+            href="/about/general"
+            aria-current={asPath === "/about/general" ? "page" : undefined}
+            as={Link}
+            defaultOpen={alwaysOpen}
+          >
+            General
+            <NavList.SubNav>
+              <NavList.Item
+                href="/about/general/one"
+                aria-current={
+                  asPath === "/about/general/one" ? "page" : undefined
+                }
+                as={Link}
+              >
+                General 1
+              </NavList.Item>
+              <NavList.Item
+                href="/about/general/two"
+                aria-current={
+                  asPath === "/about/general/two" ? "page" : undefined
+                }
+                as={Link}
+              >
+                General 2
+              </NavList.Item>
+            </NavList.SubNav>
+          </NavList.Item>
+        </NavList.SubNav>
+      </NavList.Item>
+      <NavList.Item
+        href="/contact"
+        aria-current={asPath === "/contact" ? "page" : undefined}
+        as={Link}
+      >
+        Contact
+      </NavList.Item>
+    </NavList>
+  );
 }
