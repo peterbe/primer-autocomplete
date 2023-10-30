@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "mock-server": "bun run --hot mock-server/index.ts"
   },
   "dependencies": {
     "@primer/react": "35.32.0",

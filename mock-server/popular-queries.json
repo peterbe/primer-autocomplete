@@ -1,0 +1,3794 @@
+[
+  {
+    "query": "holidays",
+    "count": 261
+  },
+  {
+    "query": "holiday",
+    "count": 166
+  },
+  {
+    "query": "vault",
+    "count": 95
+  },
+  {
+    "query": "benefits",
+    "count": 77
+  },
+  {
+    "query": "feature flag",
+    "count": 72
+  },
+  {
+    "query": "travel",
+    "count": 65
+  },
+  {
+    "query": "moda",
+    "count": 61
+  },
+  {
+    "query": "1password",
+    "count": 57
+  },
+  {
+    "query": "hydro",
+    "count": 56
+  },
+  {
+    "query": "kusto",
+    "count": 55
+  },
+  {
+    "query": "forma",
+    "count": 54
+  },
+  {
+    "query": "proxima",
+    "count": 51
+  },
+  {
+    "query": "open enrollment",
+    "count": 48
+  },
+  {
+    "query": "aqueduct",
+    "count": 39
+  },
+  {
+    "query": "pto",
+    "count": 38
+  },
+  {
+    "query": "review lab",
+    "count": 37
+  },
+  {
+    "query": "referral",
+    "count": 37
+  },
+  {
+    "query": "splunk",
+    "count": 37
+  },
+  {
+    "query": "feature flags",
+    "count": 37
+  },
+  {
+    "query": "microsoft",
+    "count": 36
+  },
+  {
+    "query": "espp",
+    "count": 35
+  },
+  {
+    "query": "service catalog",
+    "count": 35
+  },
+  {
+    "query": "vpn",
+    "count": 34
+  },
+  {
+    "query": "greenhouse",
+    "count": 34
+  },
+  {
+    "query": "sorbet",
+    "count": 33
+  },
+  {
+    "query": "per diem",
+    "count": 30
+  },
+  {
+    "query": "hubot",
+    "count": 29
+  },
+  {
+    "query": "twirp",
+    "count": 28
+  },
+  {
+    "query": "react",
+    "count": 27
+  },
+  {
+    "query": "migrations",
+    "count": 27
+  },
+  {
+    "query": "emu",
+    "count": 27
+  },
+  {
+    "query": "graphql",
+    "count": 27
+  },
+  {
+    "query": "stafftools",
+    "count": 26
+  },
+  {
+    "query": "promotion",
+    "count": 26
+  },
+  {
+    "query": "copilot",
+    "count": 26
+  },
+  {
+    "query": "leadership principles",
+    "count": 25
+  },
+  {
+    "query": "universe",
+    "count": 25
+  },
+  {
+    "query": "semester",
+    "count": 25
+  },
+  {
+    "query": "datadog",
+    "count": 25
+  },
+  {
+    "query": "401k",
+    "count": 24
+  },
+  {
+    "query": "Click Blackbird no results",
+    "count": 23
+  },
+  {
+    "query": "entitlements",
+    "count": 23
+  },
+  {
+    "query": "swag",
+    "count": 22
+  },
+  {
+    "query": "reflections",
+    "count": 22
+  },
+  {
+    "query": "developer vpn",
+    "count": 22
+  },
+  {
+    "query": "migration",
+    "count": 22
+  },
+  {
+    "query": "gheboot",
+    "count": 21
+  },
+  {
+    "query": "procurement",
+    "count": 21
+  },
+  {
+    "query": "gh-console",
+    "count": 21
+  },
+  {
+    "query": "slack",
+    "count": 20
+  },
+  {
+    "query": "concur",
+    "count": 20
+  },
+  {
+    "query": "bp-dev",
+    "count": 20
+  },
+  {
+    "query": "redis",
+    "count": 20
+  },
+  {
+    "query": "reflection",
+    "count": 20
+  },
+  {
+    "query": "mobility",
+    "count": 20
+  },
+  {
+    "query": "datadot",
+    "count": 19
+  },
+  {
+    "query": "kustomize",
+    "count": 18
+  },
+  {
+    "query": "ghes",
+    "count": 18
+  },
+  {
+    "query": "career ladder",
+    "count": 18
+  },
+  {
+    "query": "leave",
+    "count": 18
+  },
+  {
+    "query": "laptop refresh",
+    "count": 18
+  },
+  {
+    "query": "travel policy",
+    "count": 18
+  },
+  {
+    "query": "sspa",
+    "count": 18
+  },
+  {
+    "query": "audit log",
+    "count": 18
+  },
+  {
+    "query": "okta verify",
+    "count": 17
+  },
+  {
+    "query": "serviceowners",
+    "count": 17
+  },
+  {
+    "query": "chatops",
+    "count": 17
+  },
+  {
+    "query": "benevity",
+    "count": 17
+  },
+  {
+    "query": "modern health",
+    "count": 17
+  },
+  {
+    "query": "howie",
+    "count": 16
+  },
+  {
+    "query": "core 4",
+    "count": 16
+  },
+  {
+    "query": "merge queue",
+    "count": 16
+  },
+  {
+    "query": "testing",
+    "count": 16
+  },
+  {
+    "query": "dotcom",
+    "count": 16
+  },
+  {
+    "query": "vacation",
+    "count": 16
+  },
+  {
+    "query": "transition",
+    "count": 16
+  },
+  {
+    "query": "microsoft authenticator",
+    "count": 16
+  },
+  {
+    "query": "dependabot",
+    "count": 16
+  },
+  {
+    "query": "training",
+    "count": 16
+  },
+  {
+    "query": "devportal",
+    "count": 15
+  },
+  {
+    "query": "sonoma",
+    "count": 15
+  },
+  {
+    "query": "expenses",
+    "count": 15
+  },
+  {
+    "query": "production console",
+    "count": 15
+  },
+  {
+    "query": "universe 2023",
+    "count": 15
+  },
+  {
+    "query": "icims",
+    "count": 15
+  },
+  {
+    "query": "scientist",
+    "count": 15
+  },
+  {
+    "query": "okta",
+    "count": 15
+  },
+  {
+    "query": "rate limit",
+    "count": 14
+  },
+  {
+    "query": "rewatch",
+    "count": 14
+  },
+  {
+    "query": "github gives",
+    "count": 14
+  },
+  {
+    "query": "shop",
+    "count": 14
+  },
+  {
+    "query": "stock",
+    "count": 14
+  },
+  {
+    "query": "SLO",
+    "count": 14
+  },
+  {
+    "query": "badge",
+    "count": 14
+  },
+  {
+    "query": "database",
+    "count": 14
+  },
+  {
+    "query": "otel",
+    "count": 13
+  },
+  {
+    "query": "failbot",
+    "count": 13
+  },
+  {
+    "query": "internal job board",
+    "count": 13
+  },
+  {
+    "query": "internal job",
+    "count": 13
+  },
+  {
+    "query": "total rewards",
+    "count": 13
+  },
+  {
+    "query": "rubocop",
+    "count": 13
+  },
+  {
+    "query": "kubectl",
+    "count": 13
+  },
+  {
+    "query": "replication",
+    "count": 13
+  },
+  {
+    "query": "graceful degradation",
+    "count": 13
+  },
+  {
+    "query": "yubikey",
+    "count": 13
+  },
+  {
+    "query": "microsoft benefits",
+    "count": 13
+  },
+  {
+    "query": "chatgpt",
+    "count": 13
+  },
+  {
+    "query": "openapi",
+    "count": 13
+  },
+  {
+    "query": "storybook",
+    "count": 13
+  },
+  {
+    "query": "transitions",
+    "count": 13
+  },
+  {
+    "query": "tracing",
+    "count": 13
+  },
+  {
+    "query": "privacy",
+    "count": 12
+  },
+  {
+    "query": "staffship",
+    "count": 12
+  },
+  {
+    "query": "primer",
+    "count": 12
+  },
+  {
+    "query": "home office",
+    "count": 12
+  },
+  {
+    "query": "jobs",
+    "count": 12
+  },
+  {
+    "query": "elastic search",
+    "count": 12
+  },
+  {
+    "query": "coupon",
+    "count": 12
+  },
+  {
+    "query": "hsa",
+    "count": 12
+  },
+  {
+    "query": "fanout",
+    "count": 12
+  },
+  {
+    "query": "parental leave",
+    "count": 12
+  },
+  {
+    "query": "handbook",
+    "count": 12
+  },
+  {
+    "query": "dri",
+    "count": 12
+  },
+  {
+    "query": "backport",
+    "count": 12
+  },
+  {
+    "query": "azure",
+    "count": 12
+  },
+  {
+    "query": "sensitive data",
+    "count": 11
+  },
+  {
+    "query": "elasticsearch",
+    "count": 11
+  },
+  {
+    "query": "values",
+    "count": 11
+  },
+  {
+    "query": "hpc",
+    "count": 11
+  },
+  {
+    "query": "hmac",
+    "count": 11
+  },
+  {
+    "query": "gh.io",
+    "count": 11
+  },
+  {
+    "query": "pay zone",
+    "count": 11
+  },
+  {
+    "query": "lightstep",
+    "count": 11
+  },
+  {
+    "query": "graphiql",
+    "count": 11
+  },
+  {
+    "query": "adr",
+    "count": 11
+  },
+  {
+    "query": "ops-shell",
+    "count": 11
+  },
+  {
+    "query": "dogstats",
+    "count": 11
+  },
+  {
+    "query": "how we work",
+    "count": 11
+  },
+  {
+    "query": "fundamentals",
+    "count": 11
+  },
+  {
+    "query": "microsoft store",
+    "count": 11
+  },
+  {
+    "query": "discounts",
+    "count": 11
+  },
+  {
+    "query": "us holidays",
+    "count": 11
+  },
+  {
+    "query": "staff ship",
+    "count": 11
+  },
+  {
+    "query": "offices",
+    "count": 11
+  },
+  {
+    "query": "codespaces",
+    "count": 11
+  },
+  {
+    "query": "zones",
+    "count": 10
+  },
+  {
+    "query": "sabbatical",
+    "count": 10
+  },
+  {
+    "query": "holiday calendar",
+    "count": 10
+  },
+  {
+    "query": "relocation",
+    "count": 10
+  },
+  {
+    "query": "janky",
+    "count": 10
+  },
+  {
+    "query": "uptime",
+    "count": 10
+  },
+  {
+    "query": "hr",
+    "count": 10
+  },
+  {
+    "query": "webhooks",
+    "count": 10
+  },
+  {
+    "query": "go",
+    "count": 10
+  },
+  {
+    "query": "github shop",
+    "count": 10
+  },
+  {
+    "query": "code freeze",
+    "count": 10
+  },
+  {
+    "query": "goproxy",
+    "count": 10
+  },
+  {
+    "query": "ghe.io",
+    "count": 10
+  },
+  {
+    "query": "pagerduty",
+    "count": 10
+  },
+  {
+    "query": "office",
+    "count": 10
+  },
+  {
+    "query": "dev vpn",
+    "count": 10
+  },
+  {
+    "query": "terraform",
+    "count": 10
+  },
+  {
+    "query": "deploy",
+    "count": 10
+  },
+  {
+    "query": "bereavement",
+    "count": 10
+  },
+  {
+    "query": "org chart",
+    "count": 10
+  },
+  {
+    "query": "discount",
+    "count": 10
+  },
+  {
+    "query": "prod console",
+    "count": 9
+  },
+  {
+    "query": "career",
+    "count": 9
+  },
+  {
+    "query": "sentry",
+    "count": 9
+  },
+  {
+    "query": "glossary",
+    "count": 9
+  },
+  {
+    "query": "software",
+    "count": 9
+  },
+  {
+    "query": "refresh",
+    "count": 9
+  },
+  {
+    "query": "new phone",
+    "count": 9
+  },
+  {
+    "query": "dental",
+    "count": 9
+  },
+  {
+    "query": "ownership.yaml",
+    "count": 9
+  },
+  {
+    "query": "bastion",
+    "count": 9
+  },
+  {
+    "query": "promotions",
+    "count": 9
+  },
+  {
+    "query": "logging",
+    "count": 9
+  },
+  {
+    "query": "heaven",
+    "count": 9
+  },
+  {
+    "query": "semantic conventions",
+    "count": 9
+  },
+  {
+    "query": "referrals",
+    "count": 9
+  },
+  {
+    "query": "database migration",
+    "count": 9
+  },
+  {
+    "query": "console",
+    "count": 9
+  },
+  {
+    "query": "freeze",
+    "count": 9
+  },
+  {
+    "query": "zendesk",
+    "count": 9
+  },
+  {
+    "query": "microsoft password",
+    "count": 9
+  },
+  {
+    "query": "relay",
+    "count": 9
+  },
+  {
+    "query": "splunk index",
+    "count": 9
+  },
+  {
+    "query": "fiscal year",
+    "count": 9
+  },
+  {
+    "query": "enterprise",
+    "count": 9
+  },
+  {
+    "query": "new york times",
+    "count": 9
+  },
+  {
+    "query": "intune",
+    "count": 9
+  },
+  {
+    "query": "mysql",
+    "count": 9
+  },
+  {
+    "query": "rewards",
+    "count": 8
+  },
+  {
+    "query": "snek",
+    "count": 8
+  },
+  {
+    "query": "observability",
+    "count": 8
+  },
+  {
+    "query": "windows",
+    "count": 8
+  },
+  {
+    "query": "copilot chat",
+    "count": 8
+  },
+  {
+    "query": "workday",
+    "count": 8
+  },
+  {
+    "query": "bellevue",
+    "count": 8
+  },
+  {
+    "query": "replication lag",
+    "count": 8
+  },
+  {
+    "query": "moonlighting",
+    "count": 8
+  },
+  {
+    "query": "api",
+    "count": 8
+  },
+  {
+    "query": "authz",
+    "count": 8
+  },
+  {
+    "query": "learning",
+    "count": 8
+  },
+  {
+    "query": "engineering",
+    "count": 8
+  },
+  {
+    "query": "zoom",
+    "count": 8
+  },
+  {
+    "query": "ops shell",
+    "count": 8
+  },
+  {
+    "query": "laptop",
+    "count": 8
+  },
+  {
+    "query": "mental health",
+    "count": 8
+  },
+  {
+    "query": "fidelity",
+    "count": 8
+  },
+  {
+    "query": "mssql",
+    "count": 8
+  },
+  {
+    "query": "calendar",
+    "count": 8
+  },
+  {
+    "query": "idp",
+    "count": 8
+  },
+  {
+    "query": "datadog apm",
+    "count": 8
+  },
+  {
+    "query": "flipper",
+    "count": 8
+  },
+  {
+    "query": "talent architecture",
+    "count": 8
+  },
+  {
+    "query": "microsoft office",
+    "count": 8
+  },
+  {
+    "query": "expensify",
+    "count": 8
+  },
+  {
+    "query": "leaving github",
+    "count": 8
+  },
+  {
+    "query": "lfs",
+    "count": 8
+  },
+  {
+    "query": "devvpn",
+    "count": 8
+  },
+  {
+    "query": "elasticsearch 8",
+    "count": 8
+  },
+  {
+    "query": "nginx",
+    "count": 8
+  },
+  {
+    "query": "edr",
+    "count": 8
+  },
+  {
+    "query": "leadership",
+    "count": 8
+  },
+  {
+    "query": "individual development plan",
+    "count": 8
+  },
+  {
+    "query": "brand",
+    "count": 8
+  },
+  {
+    "query": "actions",
+    "count": 8
+  },
+  {
+    "query": "job board",
+    "count": 7
+  },
+  {
+    "query": "expense",
+    "count": 7
+  },
+  {
+    "query": "missing",
+    "count": 7
+  },
+  {
+    "query": "core four",
+    "count": 7
+  },
+  {
+    "query": "microsoft discounts",
+    "count": 7
+  },
+  {
+    "query": "jit",
+    "count": 7
+  },
+  {
+    "query": "adobe",
+    "count": 7
+  },
+  {
+    "query": "email",
+    "count": 7
+  },
+  {
+    "query": "public holidays",
+    "count": 7
+  },
+  {
+    "query": "copilot for docs",
+    "count": 7
+  },
+  {
+    "query": "distributed tracing",
+    "count": 7
+  },
+  {
+    "query": "travel hub",
+    "count": 7
+  },
+  {
+    "query": "vendor inventory",
+    "count": 7
+  },
+  {
+    "query": "kafka",
+    "count": 7
+  },
+  {
+    "query": "exponential backoff",
+    "count": 7
+  },
+  {
+    "query": "memcache",
+    "count": 7
+  },
+  {
+    "query": "emu test",
+    "count": 7
+  },
+  {
+    "query": "feature preview",
+    "count": 7
+  },
+  {
+    "query": "slos",
+    "count": 7
+  },
+  {
+    "query": "shell",
+    "count": 7
+  },
+  {
+    "query": "phone",
+    "count": 7
+  },
+  {
+    "query": "binding.pry",
+    "count": 7
+  },
+  {
+    "query": "ownership",
+    "count": 7
+  },
+  {
+    "query": "phishing",
+    "count": 7
+  },
+  {
+    "query": "octofactory",
+    "count": 7
+  },
+  {
+    "query": "github app",
+    "count": 7
+  },
+  {
+    "query": "SSA",
+    "count": 7
+  },
+  {
+    "query": "ctf",
+    "count": 7
+  },
+  {
+    "query": "leave of absence",
+    "count": 7
+  },
+  {
+    "query": "staff tools",
+    "count": 7
+  },
+  {
+    "query": "coworking",
+    "count": 7
+  },
+  {
+    "query": "support bundle",
+    "count": 7
+  },
+  {
+    "query": "figma",
+    "count": 7
+  },
+  {
+    "query": "new laptop",
+    "count": 6
+  },
+  {
+    "query": "rollback",
+    "count": 6
+  },
+  {
+    "query": "flamegraph",
+    "count": 6
+  },
+  {
+    "query": "trust code",
+    "count": 6
+  },
+  {
+    "query": "intern",
+    "count": 6
+  },
+  {
+    "query": "phone number",
+    "count": 6
+  },
+  {
+    "query": "desana",
+    "count": 6
+  },
+  {
+    "query": "zone",
+    "count": 6
+  },
+  {
+    "query": "rubygems.pkg.github.com",
+    "count": 6
+  },
+  {
+    "query": "microsoft referral",
+    "count": 6
+  },
+  {
+    "query": "payroll",
+    "count": 6
+  },
+  {
+    "query": "semester planning",
+    "count": 6
+  },
+  {
+    "query": "elastomer",
+    "count": 6
+  },
+  {
+    "query": "2023 holidays",
+    "count": 6
+  },
+  {
+    "query": "glb",
+    "count": 6
+  },
+  {
+    "query": "webhook",
+    "count": 6
+  },
+  {
+    "query": "production shell",
+    "count": 6
+  },
+  {
+    "query": "datadog monitor",
+    "count": 6
+  },
+  {
+    "query": "sparkle",
+    "count": 6
+  },
+  {
+    "query": "syslog",
+    "count": 6
+  },
+  {
+    "query": "paystub",
+    "count": 6
+  },
+  {
+    "query": "skeema",
+    "count": 6
+  },
+  {
+    "query": "parsing",
+    "count": 6
+  },
+  {
+    "query": "pay",
+    "count": 6
+  },
+  {
+    "query": "seed",
+    "count": 6
+  },
+  {
+    "query": "skip_with_all_emus",
+    "count": 6
+  },
+  {
+    "query": "okr",
+    "count": 6
+  },
+  {
+    "query": "notifications",
+    "count": 6
+  },
+  {
+    "query": "githubazure",
+    "count": 6
+  },
+  {
+    "query": "base image",
+    "count": 6
+  },
+  {
+    "query": "store",
+    "count": 6
+  },
+  {
+    "query": "deploy freeze",
+    "count": 6
+  },
+  {
+    "query": "stackprof",
+    "count": 6
+  },
+  {
+    "query": "ghcr.io",
+    "count": 6
+  },
+  {
+    "query": "rate limiting",
+    "count": 6
+  },
+  {
+    "query": "company holidays",
+    "count": 6
+  },
+  {
+    "query": "ebc",
+    "count": 6
+  },
+  {
+    "query": "columbus day",
+    "count": 6
+  },
+  {
+    "query": "inject-app-config-into-containers",
+    "count": 6
+  },
+  {
+    "query": "codeowners",
+    "count": 6
+  },
+  {
+    "query": "mailer",
+    "count": 6
+  },
+  {
+    "query": "moonlight",
+    "count": 6
+  },
+  {
+    "query": "learning budget",
+    "count": 6
+  },
+  {
+    "query": "prod vpn",
+    "count": 6
+  },
+  {
+    "query": "microsoft vpn",
+    "count": 6
+  },
+  {
+    "query": "authenticator",
+    "count": 6
+  },
+  {
+    "query": "applecare",
+    "count": 6
+  },
+  {
+    "query": "ecornell",
+    "count": 6
+  },
+  {
+    "query": "moda reference",
+    "count": 6
+  },
+  {
+    "query": "maven",
+    "count": 6
+  },
+  {
+    "query": "biztools",
+    "count": 6
+  },
+  {
+    "query": "onboarding",
+    "count": 6
+  },
+  {
+    "query": "semester 4",
+    "count": 6
+  },
+  {
+    "query": "amex",
+    "count": 6
+  },
+  {
+    "query": "hardware refresh",
+    "count": 6
+  },
+  {
+    "query": "preload",
+    "count": 6
+  },
+  {
+    "query": "offboarding",
+    "count": 6
+  },
+  {
+    "query": "sla",
+    "count": 6
+  },
+  {
+    "query": "uptime slo",
+    "count": 6
+  },
+  {
+    "query": "gh-dbconsole",
+    "count": 6
+  },
+  {
+    "query": "staff-wus2-01",
+    "count": 6
+  },
+  {
+    "query": "culture",
+    "count": 6
+  },
+  {
+    "query": "review-lab",
+    "count": 6
+  },
+  {
+    "query": "paved path",
+    "count": 6
+  },
+  {
+    "query": "okta network gateway",
+    "count": 6
+  },
+  {
+    "query": "GitHub.tracer",
+    "count": 6
+  },
+  {
+    "query": "devtools",
+    "count": 6
+  },
+  {
+    "query": "azure subscription",
+    "count": 6
+  },
+  {
+    "query": "memcached",
+    "count": 6
+  },
+  {
+    "query": "golden image",
+    "count": 6
+  },
+  {
+    "query": "DSR",
+    "count": 6
+  },
+  {
+    "query": "npm",
+    "count": 6
+  },
+  {
+    "query": "branding",
+    "count": 6
+  },
+  {
+    "query": "ops-shell-sudo",
+    "count": 6
+  },
+  {
+    "query": "telemetry",
+    "count": 6
+  },
+  {
+    "query": "promotion cycle",
+    "count": 6
+  },
+  {
+    "query": "benies",
+    "count": 6
+  },
+  {
+    "query": "passkey",
+    "count": 6
+  },
+  {
+    "query": "golang",
+    "count": 5
+  },
+  {
+    "query": "depends_on_clusters",
+    "count": 5
+  },
+  {
+    "query": "incident severity",
+    "count": 5
+  },
+  {
+    "query": "parental",
+    "count": 5
+  },
+  {
+    "query": "encrypt.me",
+    "count": 5
+  },
+  {
+    "query": "fsck",
+    "count": 5
+  },
+  {
+    "query": "health insurance",
+    "count": 5
+  },
+  {
+    "query": "job",
+    "count": 5
+  },
+  {
+    "query": "linkedin",
+    "count": 5
+  },
+  {
+    "query": "vault-secret",
+    "count": 5
+  },
+  {
+    "query": "abilities",
+    "count": 5
+  },
+  {
+    "query": "ong",
+    "count": 5
+  },
+  {
+    "query": "cve",
+    "count": 5
+  },
+  {
+    "query": "transfer",
+    "count": 5
+  },
+  {
+    "query": "microsoft support",
+    "count": 5
+  },
+  {
+    "query": "launchdns",
+    "count": 5
+  },
+  {
+    "query": "internal jobs",
+    "count": 5
+  },
+  {
+    "query": "prod-weu-01",
+    "count": 5
+  },
+  {
+    "query": "maternity leave",
+    "count": 5
+  },
+  {
+    "query": "gie",
+    "count": 5
+  },
+  {
+    "query": "euii",
+    "count": 5
+  },
+  {
+    "query": "cache",
+    "count": 5
+  },
+  {
+    "query": "sparkles",
+    "count": 5
+  },
+  {
+    "query": "engagement survey",
+    "count": 5
+  },
+  {
+    "query": "gives",
+    "count": 5
+  },
+  {
+    "query": "microbenies",
+    "count": 5
+  },
+  {
+    "query": "maternity",
+    "count": 5
+  },
+  {
+    "query": "add table",
+    "count": 5
+  },
+  {
+    "query": "open source",
+    "count": 5
+  },
+  {
+    "query": "2fa",
+    "count": 5
+  },
+  {
+    "query": "react training",
+    "count": 5
+  },
+  {
+    "query": "finance",
+    "count": 5
+  },
+  {
+    "query": "azure jit",
+    "count": 5
+  },
+  {
+    "query": "ghe-migrator",
+    "count": 5
+  },
+  {
+    "query": "certification",
+    "count": 5
+  },
+  {
+    "query": "primer recipe",
+    "count": 5
+  },
+  {
+    "query": "conference",
+    "count": 5
+  },
+  {
+    "query": "commit signing",
+    "count": 5
+  },
+  {
+    "query": "insurance",
+    "count": 5
+  },
+  {
+    "query": "bonus",
+    "count": 5
+  },
+  {
+    "query": "paternity",
+    "count": 5
+  },
+  {
+    "query": "backup-utils",
+    "count": 5
+  },
+  {
+    "query": "expense policy",
+    "count": 5
+  },
+  {
+    "query": "security",
+    "count": 5
+  },
+  {
+    "query": "rest api",
+    "count": 5
+  },
+  {
+    "query": "fork",
+    "count": 5
+  },
+  {
+    "query": "compensation",
+    "count": 5
+  },
+  {
+    "query": "moda secrets",
+    "count": 5
+  },
+  {
+    "query": "vitess",
+    "count": 5
+  },
+  {
+    "query": "contractor",
+    "count": 5
+  },
+  {
+    "query": "benefit",
+    "count": 5
+  },
+  {
+    "query": "enterprise mode",
+    "count": 5
+  },
+  {
+    "query": "on call",
+    "count": 5
+  },
+  {
+    "query": "lunch",
+    "count": 5
+  },
+  {
+    "query": "vault secret",
+    "count": 5
+  },
+  {
+    "query": "nda",
+    "count": 5
+  },
+  {
+    "query": "microsoft badge",
+    "count": 5
+  },
+  {
+    "query": "slo standards",
+    "count": 5
+  },
+  {
+    "query": "health check",
+    "count": 5
+  },
+  {
+    "query": "swag shop",
+    "count": 5
+  },
+  {
+    "query": "driftwood",
+    "count": 5
+  },
+  {
+    "query": "time off",
+    "count": 5
+  },
+  {
+    "query": "first responder",
+    "count": 5
+  },
+  {
+    "query": "assert_graphql_authz",
+    "count": 5
+  },
+  {
+    "query": "hiring",
+    "count": 5
+  },
+  {
+    "query": "business cards",
+    "count": 5
+  },
+  {
+    "query": "ironclad",
+    "count": 5
+  },
+  {
+    "query": "production readiness",
+    "count": 5
+  },
+  {
+    "query": "skeefree",
+    "count": 5
+  },
+  {
+    "query": "ldap",
+    "count": 5
+  },
+  {
+    "query": "slide templates",
+    "count": 5
+  },
+  {
+    "query": "monorepo",
+    "count": 5
+  },
+  {
+    "query": "logs",
+    "count": 5
+  },
+  {
+    "query": "engineering calendar",
+    "count": 5
+  },
+  {
+    "query": "zone 1",
+    "count": 5
+  },
+  {
+    "query": "developer experience",
+    "count": 5
+  },
+  {
+    "query": "incident commander",
+    "count": 5
+  },
+  {
+    "query": "san francisco",
+    "count": 5
+  },
+  {
+    "query": "catalyst",
+    "count": 5
+  },
+  {
+    "query": "pay zones",
+    "count": 5
+  },
+  {
+    "query": "notion",
+    "count": 5
+  },
+  {
+    "query": "ssh key",
+    "count": 5
+  },
+  {
+    "query": "github store",
+    "count": 5
+  },
+  {
+    "query": "vividcortex",
+    "count": 5
+  },
+  {
+    "query": "grades",
+    "count": 5
+  },
+  {
+    "query": "soft delete",
+    "count": 5
+  },
+  {
+    "query": "insights",
+    "count": 5
+  },
+  {
+    "query": "careers",
+    "count": 5
+  },
+  {
+    "query": "msw",
+    "count": 5
+  },
+  {
+    "query": "api versioning",
+    "count": 5
+  },
+  {
+    "query": "forks",
+    "count": 5
+  },
+  {
+    "query": "ruby",
+    "count": 5
+  },
+  {
+    "query": "encryption",
+    "count": 5
+  },
+  {
+    "query": "api docs",
+    "count": 5
+  },
+  {
+    "query": "visa",
+    "count": 5
+  },
+  {
+    "query": "reimbursement",
+    "count": 5
+  },
+  {
+    "query": "docker",
+    "count": 5
+  },
+  {
+    "query": "packwerk",
+    "count": 5
+  },
+  {
+    "query": "vsp",
+    "count": 5
+  },
+  {
+    "query": "octoshift",
+    "count": 5
+  },
+  {
+    "query": "fabrikam",
+    "count": 5
+  },
+  {
+    "query": "script/setup-codespaces-authnd'",
+    "count": 5
+  },
+  {
+    "query": "pipeline",
+    "count": 5
+  },
+  {
+    "query": "ladder",
+    "count": 5
+  },
+  {
+    "query": "2024 holiday",
+    "count": 5
+  },
+  {
+    "query": "async",
+    "count": 5
+  },
+  {
+    "query": "oidc",
+    "count": 5
+  },
+  {
+    "query": "apple discount",
+    "count": 5
+  },
+  {
+    "query": "markdown",
+    "count": 5
+  },
+  {
+    "query": "moving",
+    "count": 5
+  },
+  {
+    "query": "faraday",
+    "count": 5
+  },
+  {
+    "query": "codespace",
+    "count": 5
+  },
+  {
+    "query": "ghec",
+    "count": 5
+  },
+  {
+    "query": "hyperlist",
+    "count": 5
+  },
+  {
+    "query": "production readiness checklist",
+    "count": 5
+  },
+  {
+    "query": "launch",
+    "count": 5
+  },
+  {
+    "query": "dual access",
+    "count": 5
+  },
+  {
+    "query": "support reindex",
+    "count": 5
+  },
+  {
+    "query": "mssql replication",
+    "count": 5
+  },
+  {
+    "query": "oauth",
+    "count": 5
+  },
+  {
+    "query": "ukraine",
+    "count": 5
+  },
+  {
+    "query": "powerbi",
+    "count": 5
+  },
+  {
+    "query": "pcr",
+    "count": 5
+  },
+  {
+    "query": "engineering ladder",
+    "count": 5
+  },
+  {
+    "query": "bundle",
+    "count": 5
+  },
+  {
+    "query": "jamie cool",
+    "count": 5
+  },
+  {
+    "query": "trust by default",
+    "count": 5
+  },
+  {
+    "query": "code scanning",
+    "count": 5
+  },
+  {
+    "query": "dotcom testing",
+    "count": 5
+  },
+  {
+    "query": "corporate card",
+    "count": 4
+  },
+  {
+    "query": "ghe-config",
+    "count": 4
+  },
+  {
+    "query": "features",
+    "count": 4
+  },
+  {
+    "query": "semesters",
+    "count": 4
+  },
+  {
+    "query": "kusto access",
+    "count": 4
+  },
+  {
+    "query": "all_features",
+    "count": 4
+  },
+  {
+    "query": "eap",
+    "count": 4
+  },
+  {
+    "query": "accessibility",
+    "count": 4
+  },
+  {
+    "query": "flaky tests",
+    "count": 4
+  },
+  {
+    "query": "social impact",
+    "count": 4
+  },
+  {
+    "query": "prod shell",
+    "count": 4
+  },
+  {
+    "query": "blackbird",
+    "count": 4
+  },
+  {
+    "query": "ghae",
+    "count": 4
+  },
+  {
+    "query": "donation",
+    "count": 4
+  },
+  {
+    "query": "netbenefits",
+    "count": 4
+  },
+  {
+    "query": "concurrency",
+    "count": 4
+  },
+  {
+    "query": "status",
+    "count": 4
+  },
+  {
+    "query": "indigenous people",
+    "count": 4
+  },
+  {
+    "query": "medical leave",
+    "count": 4
+  },
+  {
+    "query": "security review",
+    "count": 4
+  },
+  {
+    "query": "premium economy",
+    "count": 4
+  },
+  {
+    "query": "enterprise test",
+    "count": 4
+  },
+  {
+    "query": "multi-tenant",
+    "count": 4
+  },
+  {
+    "query": "verification",
+    "count": 4
+  },
+  {
+    "query": "batch_method",
+    "count": 4
+  },
+  {
+    "query": "juanjocarmena",
+    "count": 4
+  },
+  {
+    "query": "perkspot",
+    "count": 4
+  },
+  {
+    "query": "ats",
+    "count": 4
+  },
+  {
+    "query": "hubbernetes",
+    "count": 4
+  },
+  {
+    "query": "geneva",
+    "count": 4
+  },
+  {
+    "query": "feature",
+    "count": 4
+  },
+  {
+    "query": "public beta",
+    "count": 4
+  },
+  {
+    "query": "prefill_associations",
+    "count": 4
+  },
+  {
+    "query": "timeout",
+    "count": 4
+  },
+  {
+    "query": "slash command",
+    "count": 4
+  },
+  {
+    "query": "internship",
+    "count": 4
+  },
+  {
+    "query": "hubber handbook",
+    "count": 4
+  },
+  {
+    "query": "epic",
+    "count": 4
+  },
+  {
+    "query": "react partial",
+    "count": 4
+  },
+  {
+    "query": "license",
+    "count": 4
+  },
+  {
+    "query": "short link",
+    "count": 4
+  },
+  {
+    "query": "unicorn",
+    "count": 4
+  },
+  {
+    "query": "request id",
+    "count": 4
+  },
+  {
+    "query": "slash commands",
+    "count": 4
+  },
+  {
+    "query": "hubot commands",
+    "count": 4
+  },
+  {
+    "query": "ldapsearch",
+    "count": 4
+  },
+  {
+    "query": "testing best practices",
+    "count": 4
+  },
+  {
+    "query": "big rocks",
+    "count": 4
+  },
+  {
+    "query": "jetbrains",
+    "count": 4
+  },
+  {
+    "query": "ghe-restore",
+    "count": 4
+  },
+  {
+    "query": "survey",
+    "count": 4
+  },
+  {
+    "query": "toxiproxy",
+    "count": 4
+  },
+  {
+    "query": "istio",
+    "count": 4
+  },
+  {
+    "query": "kubernetes",
+    "count": 4
+  },
+  {
+    "query": "looker",
+    "count": 4
+  },
+  {
+    "query": "gitbenefits",
+    "count": 4
+  },
+  {
+    "query": "hubber lunch",
+    "count": 4
+  },
+  {
+    "query": "template",
+    "count": 4
+  },
+  {
+    "query": "workplace security",
+    "count": 4
+  },
+  {
+    "query": "data classification",
+    "count": 4
+  },
+  {
+    "query": "remote desktop",
+    "count": 4
+  },
+  {
+    "query": "lint",
+    "count": 4
+  },
+  {
+    "query": "OTEL_EXPORTER_OTLP_TRACES_HEADERS",
+    "count": 4
+  },
+  {
+    "query": "game pass",
+    "count": 4
+  },
+  {
+    "query": "legal",
+    "count": 4
+  },
+  {
+    "query": "proxima pulse",
+    "count": 4
+  },
+  {
+    "query": "microsoft discount",
+    "count": 4
+  },
+  {
+    "query": "github-ui",
+    "count": 4
+  },
+  {
+    "query": "implementing transitions",
+    "count": 4
+  },
+  {
+    "query": "workplace",
+    "count": 4
+  },
+  {
+    "query": "password",
+    "count": 4
+  },
+  {
+    "query": "microbennies",
+    "count": 4
+  },
+  {
+    "query": "hello",
+    "count": 4
+  },
+  {
+    "query": "durable ownership",
+    "count": 4
+  },
+  {
+    "query": "expert services",
+    "count": 4
+  },
+  {
+    "query": "slack mobile",
+    "count": 4
+  },
+  {
+    "query": "priorities",
+    "count": 4
+  },
+  {
+    "query": "internal transfer",
+    "count": 4
+  },
+  {
+    "query": "diversity",
+    "count": 4
+  },
+  {
+    "query": "marriage",
+    "count": 4
+  },
+  {
+    "query": "architecture",
+    "count": 4
+  },
+  {
+    "query": "marketing",
+    "count": 4
+  },
+  {
+    "query": "review lab api",
+    "count": 4
+  },
+  {
+    "query": "rate limits",
+    "count": 4
+  },
+  {
+    "query": "planned event",
+    "count": 4
+  },
+  {
+    "query": "Workday mobile",
+    "count": 4
+  },
+  {
+    "query": "gear",
+    "count": 4
+  },
+  {
+    "query": "company holiday",
+    "count": 4
+  },
+  {
+    "query": "viscosity",
+    "count": 4
+  },
+  {
+    "query": "restore repository",
+    "count": 4
+  },
+  {
+    "query": "gauntlet",
+    "count": 4
+  },
+  {
+    "query": "remote life",
+    "count": 4
+  },
+  {
+    "query": "allowlist",
+    "count": 4
+  },
+  {
+    "query": "moda deployment config",
+    "count": 4
+  },
+  {
+    "query": "promotion template",
+    "count": 4
+  },
+  {
+    "query": "monitors",
+    "count": 4
+  },
+  {
+    "query": "employment verification",
+    "count": 4
+  },
+  {
+    "query": "analytics",
+    "count": 4
+  },
+  {
+    "query": "test",
+    "count": 4
+  },
+  {
+    "query": "snippy",
+    "count": 4
+  },
+  {
+    "query": "custom domain",
+    "count": 4
+  },
+  {
+    "query": "epd",
+    "count": 4
+  },
+  {
+    "query": "morgan stanley",
+    "count": 4
+  },
+  {
+    "query": "pages",
+    "count": 4
+  },
+  {
+    "query": "ship to learn",
+    "count": 4
+  },
+  {
+    "query": "CAP",
+    "count": 4
+  },
+  {
+    "query": "proxima stamp",
+    "count": 4
+  },
+  {
+    "query": "database migrations",
+    "count": 4
+  },
+  {
+    "query": "logrotate",
+    "count": 4
+  },
+  {
+    "query": "orchestrations",
+    "count": 4
+  },
+  {
+    "query": "incident repair",
+    "count": 4
+  },
+  {
+    "query": "rails test",
+    "count": 4
+  },
+  {
+    "query": "us holiday",
+    "count": 4
+  },
+  {
+    "query": "github",
+    "count": 4
+  },
+  {
+    "query": "service ownership",
+    "count": 4
+  },
+  {
+    "query": "monolith",
+    "count": 4
+  },
+  {
+    "query": "dotcom codespace",
+    "count": 4
+  },
+  {
+    "query": "incident",
+    "count": 4
+  },
+  {
+    "query": "o'reilly",
+    "count": 4
+  },
+  {
+    "query": "GITHUB_TOKEN",
+    "count": 4
+  },
+  {
+    "query": "totalrewards",
+    "count": 4
+  },
+  {
+    "query": "rails console",
+    "count": 4
+  },
+  {
+    "query": "wvd",
+    "count": 4
+  },
+  {
+    "query": "alambic replication",
+    "count": 4
+  },
+  {
+    "query": "timezone",
+    "count": 4
+  },
+  {
+    "query": "octocat",
+    "count": 4
+  },
+  {
+    "query": "cluster",
+    "count": 4
+  },
+  {
+    "query": "ghes license",
+    "count": 4
+  },
+  {
+    "query": "american express",
+    "count": 4
+  },
+  {
+    "query": "tapioca",
+    "count": 4
+  },
+  {
+    "query": "trilogy",
+    "count": 4
+  },
+  {
+    "query": "python",
+    "count": 4
+  },
+  {
+    "query": "datadog gates",
+    "count": 4
+  },
+  {
+    "query": "test all features",
+    "count": 4
+  },
+  {
+    "query": "internal",
+    "count": 4
+  },
+  {
+    "query": "twirp api",
+    "count": 4
+  },
+  {
+    "query": "debug",
+    "count": 4
+  },
+  {
+    "query": "package",
+    "count": 4
+  },
+  {
+    "query": "alambic",
+    "count": 4
+  },
+  {
+    "query": "levels",
+    "count": 4
+  },
+  {
+    "query": "holiday list",
+    "count": 4
+  },
+  {
+    "query": "flagged accounts",
+    "count": 4
+  },
+  {
+    "query": "day of reflection",
+    "count": 4
+  },
+  {
+    "query": "consul",
+    "count": 4
+  },
+  {
+    "query": "metrics",
+    "count": 4
+  },
+  {
+    "query": "holidays 2023",
+    "count": 4
+  },
+  {
+    "query": "aqueduct bridge",
+    "count": 4
+  },
+  {
+    "query": "hookshot",
+    "count": 4
+  },
+  {
+    "query": "vault-secrets",
+    "count": 4
+  },
+  {
+    "query": "dev-vpn",
+    "count": 4
+  },
+  {
+    "query": "proxima observability",
+    "count": 4
+  },
+  {
+    "query": "go proxy",
+    "count": 4
+  },
+  {
+    "query": "production vpn",
+    "count": 4
+  },
+  {
+    "query": "availability",
+    "count": 4
+  },
+  {
+    "query": "pluralsight",
+    "count": 4
+  },
+  {
+    "query": "seed user",
+    "count": 4
+  },
+  {
+    "query": "bennies",
+    "count": 4
+  },
+  {
+    "query": "load balancer",
+    "count": 4
+  },
+  {
+    "query": "network-proxy",
+    "count": 4
+  },
+  {
+    "query": "semantic",
+    "count": 4
+  },
+  {
+    "query": "ntp",
+    "count": 4
+  },
+  {
+    "query": "global id",
+    "count": 4
+  },
+  {
+    "query": "monitor",
+    "count": 4
+  },
+  {
+    "query": "overmind",
+    "count": 4
+  },
+  {
+    "query": "templates",
+    "count": 4
+  },
+  {
+    "query": "dynamic workflows",
+    "count": 4
+  },
+  {
+    "query": "contractors",
+    "count": 4
+  },
+  {
+    "query": "vision",
+    "count": 4
+  },
+  {
+    "query": "coupa",
+    "count": 4
+  },
+  {
+    "query": "canary",
+    "count": 4
+  },
+  {
+    "query": "microsoft intune",
+    "count": 4
+  },
+  {
+    "query": "vendor gem",
+    "count": 4
+  },
+  {
+    "query": "artifact cache",
+    "count": 4
+  },
+  {
+    "query": "opentelemetry",
+    "count": 4
+  },
+  {
+    "query": "background job",
+    "count": 4
+  },
+  {
+    "query": "wex",
+    "count": 4
+  },
+  {
+    "query": "device",
+    "count": 4
+  },
+  {
+    "query": "debugger",
+    "count": 4
+  },
+  {
+    "query": "secrets",
+    "count": 4
+  },
+  {
+    "query": "relocating",
+    "count": 3
+  },
+  {
+    "query": "TFCA",
+    "count": 3
+  },
+  {
+    "query": "restore",
+    "count": 3
+  },
+  {
+    "query": "service to service",
+    "count": 3
+  },
+  {
+    "query": "professor x",
+    "count": 3
+  },
+  {
+    "query": "index",
+    "count": 3
+  },
+  {
+    "query": "sha sync",
+    "count": 3
+  },
+  {
+    "query": "slides template",
+    "count": 3
+  },
+  {
+    "query": "jury duty",
+    "count": 3
+  },
+  {
+    "query": "mysql migration",
+    "count": 3
+  },
+  {
+    "query": "gists",
+    "count": 3
+  },
+  {
+    "query": "sentry onboarding",
+    "count": 3
+  },
+  {
+    "query": "applicable",
+    "count": 3
+  },
+  {
+    "query": "hubberversary",
+    "count": 3
+  },
+  {
+    "query": "actor type",
+    "count": 3
+  },
+  {
+    "query": "cookies",
+    "count": 3
+  },
+  {
+    "query": "china",
+    "count": 3
+  },
+  {
+    "query": "vault access",
+    "count": 3
+  },
+  {
+    "query": "vault-bastion",
+    "count": 3
+  },
+  {
+    "query": "fine-grained",
+    "count": 3
+  },
+  {
+    "query": "udacity",
+    "count": 3
+  },
+  {
+    "query": "compa",
+    "count": 3
+  },
+  {
+    "query": "authzd",
+    "count": 3
+  },
+  {
+    "query": "post incident communication",
+    "count": 3
+  },
+  {
+    "query": "microsoft stock",
+    "count": 3
+  },
+  {
+    "query": "sev3",
+    "count": 3
+  },
+  {
+    "query": "ui/packages",
+    "count": 3
+  },
+  {
+    "query": "certificate",
+    "count": 3
+  },
+  {
+    "query": "data dot",
+    "count": 3
+  },
+  {
+    "query": "direct deposit",
+    "count": 3
+  },
+  {
+    "query": "vesting",
+    "count": 3
+  },
+  {
+    "query": "github connect",
+    "count": 3
+  },
+  {
+    "query": "audit logs",
+    "count": 3
+  },
+  {
+    "query": "intellij",
+    "count": 3
+  },
+  {
+    "query": "github holidays",
+    "count": 3
+  },
+  {
+    "query": "ghcr",
+    "count": 3
+  },
+  {
+    "query": "background jobs",
+    "count": 3
+  },
+  {
+    "query": "service owners",
+    "count": 3
+  },
+  {
+    "query": "cosmosdb",
+    "count": 3
+  },
+  {
+    "query": "thehub docs",
+    "count": 3
+  },
+  {
+    "query": "hotel",
+    "count": 3
+  },
+  {
+    "query": "manager",
+    "count": 3
+  },
+  {
+    "query": "responsible ai",
+    "count": 3
+  },
+  {
+    "query": "prod-resque",
+    "count": 3
+  },
+  {
+    "query": "actions teardown",
+    "count": 3
+  },
+  {
+    "query": "resignation",
+    "count": 3
+  },
+  {
+    "query": "pre-receive",
+    "count": 3
+  },
+  {
+    "query": "360",
+    "count": 3
+  },
+  {
+    "query": "foreign keys",
+    "count": 3
+  },
+  {
+    "query": "garage",
+    "count": 3
+  },
+  {
+    "query": "gitauth",
+    "count": 3
+  },
+  {
+    "query": "repair",
+    "count": 3
+  },
+  {
+    "query": "github_v1_request",
+    "count": 3
+  },
+  {
+    "query": "turbo-frame",
+    "count": 3
+  },
+  {
+    "query": "actions architecture",
+    "count": 3
+  },
+  {
+    "query": "one password",
+    "count": 3
+  },
+  {
+    "query": "copilot infrastructure",
+    "count": 3
+  },
+  {
+    "query": "customer obsessed",
+    "count": 3
+  },
+  {
+    "query": "treelights",
+    "count": 3
+  },
+  {
+    "query": "oreilly",
+    "count": 3
+  },
+  {
+    "query": "enterprise managed users",
+    "count": 3
+  },
+  {
+    "query": "enrollment",
+    "count": 3
+  },
+  {
+    "query": "cardinality",
+    "count": 3
+  },
+  {
+    "query": "lt",
+    "count": 3
+  },
+  {
+    "query": "bam",
+    "count": 3
+  },
+  {
+    "query": "review lab jobs",
+    "count": 3
+  },
+  {
+    "query": "required training",
+    "count": 3
+  },
+  {
+    "query": "fiscal year calendar",
+    "count": 3
+  },
+  {
+    "query": "slow repository",
+    "count": 3
+  },
+  {
+    "query": "company values",
+    "count": 3
+  },
+  {
+    "query": "sev2",
+    "count": 3
+  },
+  {
+    "query": "logger",
+    "count": 3
+  },
+  {
+    "query": "dompurify",
+    "count": 3
+  },
+  {
+    "query": "datadog-monitoring",
+    "count": 3
+  },
+  {
+    "query": "backup",
+    "count": 3
+  },
+  {
+    "query": "company store",
+    "count": 3
+  },
+  {
+    "query": "talent acquisition ",
+    "count": 3
+  },
+  {
+    "query": "iphone",
+    "count": 3
+  },
+  {
+    "query": "codeload",
+    "count": 3
+  },
+  {
+    "query": "governor",
+    "count": 3
+  },
+  {
+    "query": "danibrooks",
+    "count": 3
+  },
+  {
+    "query": "flexible PTO",
+    "count": 3
+  },
+  {
+    "query": "ghe-spokesctl",
+    "count": 3
+  },
+  {
+    "query": "vivid cortex",
+    "count": 3
+  },
+  {
+    "query": "mermaid",
+    "count": 3
+  },
+  {
+    "query": "ngrok",
+    "count": 3
+  },
+  {
+    "query": "domain",
+    "count": 3
+  },
+  {
+    "query": "Medical",
+    "count": 3
+  },
+  {
+    "query": "domain verification",
+    "count": 3
+  },
+  {
+    "query": "protobuf",
+    "count": 3
+  },
+  {
+    "query": "conditional access",
+    "count": 3
+  },
+  {
+    "query": "shared components",
+    "count": 3
+  },
+  {
+    "query": "diversity inclusion",
+    "count": 3
+  },
+  {
+    "query": "team",
+    "count": 3
+  },
+  {
+    "query": "repo",
+    "count": 3
+  },
+  {
+    "query": "azure data explorer",
+    "count": 3
+  },
+  {
+    "query": "analytics_click_attributes",
+    "count": 3
+  },
+  {
+    "query": "wall street",
+    "count": 3
+  },
+  {
+    "query": "day of learning",
+    "count": 3
+  },
+  {
+    "query": "micro",
+    "count": 3
+  },
+  {
+    "query": "volunteer",
+    "count": 3
+  },
+  {
+    "query": "local development",
+    "count": 3
+  },
+  {
+    "query": "dynamic workflow",
+    "count": 3
+  },
+  {
+    "query": "github principles",
+    "count": 3
+  },
+  {
+    "query": "achievements",
+    "count": 3
+  },
+  {
+    "query": "teams",
+    "count": 3
+  },
+  {
+    "query": "cname",
+    "count": 3
+  },
+  {
+    "query": "secret scanning",
+    "count": 3
+  },
+  {
+    "query": "bin/rails test",
+    "count": 3
+  },
+  {
+    "query": "W2",
+    "count": 3
+  },
+  {
+    "query": "running transitions",
+    "count": 3
+  },
+  {
+    "query": "annual risk assessment",
+    "count": 3
+  },
+  {
+    "query": "rental car",
+    "count": 3
+  },
+  {
+    "query": "on-call",
+    "count": 3
+  },
+  {
+    "query": "squatting",
+    "count": 3
+  },
+  {
+    "query": "review lab graphql",
+    "count": 3
+  },
+  {
+    "query": ".deploy",
+    "count": 3
+  },
+  {
+    "query": "notifyd",
+    "count": 3
+  },
+  {
+    "query": "batch",
+    "count": 3
+  },
+  {
+    "query": "sentinel",
+    "count": 3
+  },
+  {
+    "query": "test enterprise mode",
+    "count": 3
+  },
+  {
+    "query": "scim",
+    "count": 3
+  },
+  {
+    "query": ".bp-dev",
+    "count": 3
+  },
+  {
+    "query": "docker desktop",
+    "count": 3
+  },
+  {
+    "query": "staffship-01",
+    "count": 3
+  },
+  {
+    "query": "graphql feature flag",
+    "count": 3
+  },
+  {
+    "query": "projects",
+    "count": 3
+  },
+  {
+    "query": "social media",
+    "count": 3
+  },
+  {
+    "query": "RPC",
+    "count": 3
+  },
+  {
+    "query": "total rewards portal",
+    "count": 3
+  },
+  {
+    "query": "hubber engagement",
+    "count": 3
+  },
+  {
+    "query": "storage",
+    "count": 3
+  },
+  {
+    "query": "blue cross",
+    "count": 3
+  },
+  {
+    "query": "build pipelines",
+    "count": 3
+  },
+  {
+    "query": "virtual desktop",
+    "count": 3
+  },
+  {
+    "query": "orchestration",
+    "count": 3
+  },
+  {
+    "query": "pizza team",
+    "count": 3
+  },
+  {
+    "query": "enterprise account",
+    "count": 3
+  },
+  {
+    "query": "ghe-config-apply",
+    "count": 3
+  },
+  {
+    "query": "ecoss",
+    "count": 3
+  },
+  {
+    "query": "cosmos",
+    "count": 3
+  },
+  {
+    "query": "revenue plays",
+    "count": 3
+  },
+  {
+    "query": "github packages",
+    "count": 3
+  },
+  {
+    "query": "global app",
+    "count": 3
+  },
+  {
+    "query": "memoize",
+    "count": 3
+  },
+  {
+    "query": "flaky test",
+    "count": 3
+  },
+  {
+    "query": "presto",
+    "count": 3
+  },
+  {
+    "query": "audit log events",
+    "count": 3
+  },
+  {
+    "query": "programming languages",
+    "count": 3
+  },
+  {
+    "query": "github values",
+    "count": 3
+  },
+  {
+    "query": "vulnerability",
+    "count": 3
+  },
+  {
+    "query": "billing",
+    "count": 3
+  },
+  {
+    "query": "macc",
+    "count": 3
+  },
+  {
+    "query": "primer recipes",
+    "count": 3
+  },
+  {
+    "query": "worktent",
+    "count": 3
+  },
+  {
+    "query": "airflow",
+    "count": 3
+  },
+  {
+    "query": "support escalation",
+    "count": 3
+  },
+  {
+    "query": "monalisa",
+    "count": 3
+  },
+  {
+    "query": "passworD1",
+    "count": 3
+  },
+  {
+    "query": "core identity",
+    "count": 3
+  },
+  {
+    "query": "github.logger",
+    "count": 3
+  },
+  {
+    "query": "service",
+    "count": 3
+  },
+  {
+    "query": "retirement",
+    "count": 3
+  },
+  {
+    "query": "bootstrap",
+    "count": 3
+  },
+  {
+    "query": "mona",
+    "count": 3
+  },
+  {
+    "query": "hydro schema",
+    "count": 3
+  },
+  {
+    "query": "tier",
+    "count": 3
+  },
+  {
+    "query": "tls",
+    "count": 3
+  },
+  {
+    "query": "emoji",
+    "count": 3
+  },
+  {
+    "query": "OTEL_EXPORTER_OTLP_TRACES_ENDPOINT",
+    "count": 3
+  },
+  {
+    "query": "unicorn workers",
+    "count": 3
+  },
+  {
+    "query": "threat modeling",
+    "count": 3
+  },
+  {
+    "query": "billing vnext",
+    "count": 3
+  },
+  {
+    "query": "choosing a database",
+    "count": 3
+  },
+  {
+    "query": "fixtures",
+    "count": 3
+  },
+  {
+    "query": "morale",
+    "count": 3
+  },
+  {
+    "query": "company priorities",
+    "count": 3
+  },
+  {
+    "query": "gitrpc",
+    "count": 3
+  },
+  {
+    "query": "telegraf",
+    "count": 3
+  },
+  {
+    "query": "commissions",
+    "count": 3
+  },
+  {
+    "query": "emu testing",
+    "count": 3
+  },
+  {
+    "query": "thehub",
+    "count": 3
+  },
+  {
+    "query": ".catalog subscriptions add ",
+    "count": 3
+  },
+  {
+    "query": "presentation",
+    "count": 3
+  },
+  {
+    "query": "team post",
+    "count": 3
+  },
+  {
+    "query": "fusion",
+    "count": 3
+  },
+  {
+    "query": "all features",
+    "count": 3
+  },
+  {
+    "query": "languages",
+    "count": 3
+  },
+  {
+    "query": "ankneis",
+    "count": 3
+  },
+  {
+    "query": "gh-ost",
+    "count": 3
+  },
+  {
+    "query": "docker login ghcr.io",
+    "count": 3
+  },
+  {
+    "query": "task",
+    "count": 3
+  },
+  {
+    "query": "caching",
+    "count": 3
+  },
+  {
+    "query": "dotcom test",
+    "count": 3
+  },
+  {
+    "query": "bose",
+    "count": 3
+  },
+  {
+    "query": "meu",
+    "count": 3
+  },
+  {
+    "query": "dsb",
+    "count": 3
+  },
+  {
+    "query": "icons",
+    "count": 3
+  },
+  {
+    "query": "stratocaster",
+    "count": 3
+  },
+  {
+    "query": "nvda",
+    "count": 3
+  },
+  {
+    "query": "github foundations",
+    "count": 3
+  },
+  {
+    "query": "office supplies",
+    "count": 3
+  },
+  {
+    "query": "presentation template",
+    "count": 3
+  },
+  {
+    "query": "style guide",
+    "count": 3
+  },
+  {
+    "query": "missing backup",
+    "count": 3
+  },
+  {
+    "query": "compa ratio",
+    "count": 3
+  },
+  {
+    "query": "kubeconform",
+    "count": 3
+  },
+  {
+    "query": "verifiedFetch",
+    "count": 3
+  },
+  {
+    "query": "immigration",
+    "count": 3
+  },
+  {
+    "query": "cli",
+    "count": 3
+  },
+  {
+    "query": "flywheel",
+    "count": 3
+  },
+  {
+    "query": "mirror",
+    "count": 3
+  },
+  {
+    "query": "dotcom codespaces",
+    "count": 3
+  },
+  {
+    "query": "backfill",
+    "count": 3
+  },
+  {
+    "query": "learning and development",
+    "count": 3
+  },
+  {
+    "query": "email alias",
+    "count": 3
+  },
+  {
+    "query": "revenue",
+    "count": 3
+  },
+  {
+    "query": "review-lab console",
+    "count": 3
+  },
+  {
+    "query": "staffbar",
+    "count": 3
+  },
+  {
+    "query": "business class",
+    "count": 3
+  },
+  {
+    "query": "rsu",
+    "count": 3
+  },
+  {
+    "query": "push log",
+    "count": 3
+  },
+  {
+    "query": "shortlink",
+    "count": 3
+  },
+  {
+    "query": "sinatra",
+    "count": 3
+  },
+  {
+    "query": "ghes log",
+    "count": 3
+  },
+  {
+    "query": "bundles",
+    "count": 3
+  },
+  {
+    "query": "slack app",
+    "count": 3
+  },
+  {
+    "query": "gh-medic",
+    "count": 3
+  },
+  {
+    "query": "health benefits",
+    "count": 3
+  },
+  {
+    "query": "mobile",
+    "count": 3
+  },
+  {
+    "query": "monolith logs",
+    "count": 3
+  },
+  {
+    "query": "oar",
+    "count": 3
+  },
+  {
+    "query": "terraform enterprise",
+    "count": 3
+  },
+  {
+    "query": "bcdr",
+    "count": 3
+  },
+  {
+    "query": "repository maintenance",
+    "count": 3
+  },
+  {
+    "query": "bagel",
+    "count": 3
+  },
+  {
+    "query": "release",
+    "count": 3
+  },
+  {
+    "query": "laptop purchase",
+    "count": 3
+  },
+  {
+    "query": "fast",
+    "count": 3
+  },
+  {
+    "query": "ghe-mssql-shrinkfile",
+    "count": 3
+  },
+  {
+    "query": "gh-k8s-shell",
+    "count": 3
+  },
+  {
+    "query": "feedback",
+    "count": 3
+  },
+  {
+    "query": "\"inject-app-config-into-containers\"",
+    "count": 3
+  },
+  {
+    "query": "debugging",
+    "count": 3
+  },
+  {
+    "query": "severity",
+    "count": 3
+  },
+  {
+    "query": "meals with hubbers",
+    "count": 3
+  },
+  {
+    "query": "github-telemetry-go",
+    "count": 3
+  },
+  {
+    "query": "sbc",
+    "count": 3
+  },
+  {
+    "query": "stock portal",
+    "count": 3
+  },
+  {
+    "query": "platform health",
+    "count": 3
+  },
+  {
+    "query": "sensitive data removal",
+    "count": 3
+  },
+  {
+    "query": "targetcw",
+    "count": 3
+  },
+  {
+    "query": "fsa",
+    "count": 3
+  },
+  {
+    "query": "logo",
+    "count": 3
+  },
+  {
+    "query": "codeql",
+    "count": 3
+  },
+  {
+    "query": "ssr",
+    "count": 3
+  },
+  {
+    "query": "user notices",
+    "count": 3
+  },
+  {
+    "query": "devvpn codespace",
+    "count": 3
+  },
+  {
+    "query": "console access",
+    "count": 3
+  },
+  {
+    "query": "ingress",
+    "count": 3
+  },
+  {
+    "query": "model coach",
+    "count": 3
+  },
+  {
+    "query": "dependabot access",
+    "count": 3
+  },
+  {
+    "query": "L&D",
+    "count": 3
+  },
+  {
+    "query": "server logs",
+    "count": 3
+  },
+  {
+    "query": "search index",
+    "count": 3
+  },
+  {
+    "query": "permissions",
+    "count": 3
+  },
+  {
+    "query": "personal.log",
+    "count": 3
+  },
+  {
+    "query": "indigenous people day",
+    "count": 3
+  },
+  {
+    "query": "mailhog",
+    "count": 3
+  },
+  {
+    "query": "gift",
+    "count": 3
+  },
+  {
+    "query": "multitenant",
+    "count": 3
+  },
+  {
+    "query": "namespace",
+    "count": 3
+  },
+  {
+    "query": "support",
+    "count": 3
+  },
+  {
+    "query": "security requirements",
+    "count": 3
+  },
+  {
+    "query": "gei",
+    "count": 3
+  },
+  {
+    "query": "performance",
+    "count": 3
+  },
+  {
+    "query": "linting",
+    "count": 3
+  },
+  {
+    "query": "staff",
+    "count": 3
+  },
+  {
+    "query": "GOMAXPROCS",
+    "count": 3
+  },
+  {
+    "query": "interview",
+    "count": 3
+  },
+  {
+    "query": "feature_enabled?",
+    "count": 3
+  },
+  {
+    "query": "azure access",
+    "count": 3
+  },
+  {
+    "query": "services",
+    "count": 3
+  },
+  {
+    "query": "deflection",
+    "count": 3
+  },
+  {
+    "query": "stock grant",
+    "count": 3
+  },
+  {
+    "query": "lifecycle of a request",
+    "count": 3
+  },
+  {
+    "query": "gh cli",
+    "count": 3
+  },
+  {
+    "query": "neurocats",
+    "count": 3
+  },
+  {
+    "query": "auditlog",
+    "count": 3
+  },
+  {
+    "query": "project fusion",
+    "count": 3
+  },
+  {
+    "query": "ops",
+    "count": 3
+  },
+  {
+    "query": "db console",
+    "count": 3
+  },
+  {
+    "query": "github holiday",
+    "count": 3
+  },
+  {
+    "query": "holiday schedule",
+    "count": 3
+  },
+  {
+    "query": "slack phone",
+    "count": 3
+  },
+  {
+    "query": "microsoft email",
+    "count": 3
+  },
+  {
+    "query": "canada",
+    "count": 3
+  },
+  {
+    "query": "job description",
+    "count": 3
+  },
+  {
+    "query": "monolith twirp",
+    "count": 3
+  },
+  {
+    "query": "android",
+    "count": 3
+  }
+]
