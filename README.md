@@ -1,3 +1,3 @@
-Exists just to debug a but in [@primer/react](https://github.com/primer/react/).
+# primer-autocomplete
 
-[https://github.com/primer/react/issues/3835](https://github.com/primer/react/issues/3835)
+Using the `@primer/react` component to build a typeahead search feature.
