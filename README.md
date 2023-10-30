@@ -2,6 +2,25 @@
 
 Using the `@primer/react` component to build a typeahead search feature.
 
+## To run
+
+You'll need to start **two terminals**
+
+One:
+
+```shell
+npm run mock-server
+```
+
+Two:
+
+```shell
+npm run dev
+```
+
+Now, you can open <http://localhost:3000>
+
+
 ## Kusto
 
 Kusto query used to generated the `popular-queries.csv` downloaded CSV
