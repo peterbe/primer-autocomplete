@@ -1,12 +1,16 @@
 import Head from "next/head";
 import Link from "next/link";
-import { Button, NavList } from "@primer/react";
+import { Autocomplete, FormControl } from "@primer/react";
 import { BaseStyles, Box, Heading } from "@primer/react";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import useSWR from "swr";
+import { useEffect, useState } from "react";
 
 export default function Home() {
-  const [alwaysOpen, setAlwaysOpen] = useState(false);
+  const [ready, setReady] = useState(false);
+  useEffect(() => {
+    setReady(true);
+  }, []);
   return (
     <>
       <Head>
@@ -15,83 +19,292 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main style={{ margin: 50 }}>
         <BaseStyles>
-          <Heading>Hi there</Heading>
-          <Button onClick={() => setAlwaysOpen((p) => !p)}>
-            {alwaysOpen ? "Close" : "Open"}
-          </Button>
-          <NList alwaysOpen={alwaysOpen} />
+          <Heading>Search to your heart's content</Heading>
+          {ready && <Search />}
         </BaseStyles>
       </main>
     </>
   );
 }
 
-function NList({ alwaysOpen }: { alwaysOpen?: boolean }) {
-  const { asPath } = useRouter();
+type TypeaheadHit = {
+  id: string;
+  term: string;
+};
+type ServerResponse = {
+  hits: TypeaheadHit[];
+  meta: {
+    found: {
+      value: number;
+    };
+    shown: number;
+    took: {
+      query_sec: number;
+      total_sec: number;
+    };
+    search: {
+      query: string;
+      size: number;
+    };
+  };
+};
+
+type MenuItem = {
+  text: string;
+  id: string;
+};
+
+type PreviousSearch = {
+  query: string;
+  found: number;
+};
+
+function dontBother(previousSearch: PreviousSearch | null, query: string) {
+  if (!previousSearch) return false;
+
+  if (previousSearch.found === 0) {
+    if (query.startsWith(previousSearch.query)) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function Search() {
+  const [typedInput, setTypedInput] = useState("");
+  const debouncedValue = useDebounce(typedInput, 100);
+
+  // Record the outcome of every XHR request such that it can be used
+  // later to determine if we should bother making a request.
+  // If the previous search for "foo" found 0 results, and the input
+  // is now "food", don't bother sending another XHR query.
+  const [previousSearch, setPreviousSearch] = useState<PreviousSearch | null>(
+    null
+  );
+
+  const apiURL =
+    debouncedValue.trim() && !dontBother(previousSearch, debouncedValue.trim())
+      ? `/api/search/typeahead?${new URLSearchParams({
+          query: debouncedValue,
+        })}`
+      : null;
+
+  const { data, isLoading } = useSWR<ServerResponse, Error>(
+    apiURL,
+    async (url: string) => {
+      const response = await fetch(url);
+      return response.json();
+    },
+    {
+      revalidateOnFocus: false,
+      keepPreviousData: true,
+    }
+  );
+
+  useEffect(() => {
+    if (data) {
+      setPreviousSearch({
+        query: data.meta.search.query,
+        found: data.meta.found.value,
+      });
+    }
+  }, [data]);
+
+  // const [stillLoading, setStillLoading] = useState(false);
+  // useEffect(() => {
+  //   console.log({ isLoading });
+  //   let timer: number | null = null;
+
+  //   if (isLoading) {
+  //     timer = window.setTimeout(() => {
+  //       setStillLoading(true);
+  //     }, 1500);
+  //   } else if (timer) {
+  //     window.clearTimeout(timer);
+  //     timer = null;
+  //     setStillLoading(false);
+  //   } else {
+  //     setStillLoading(false);
+  //   }
+
+  //   return () => {
+  //     if (timer !== null) window.clearInterval(timer);
+  //   };
+  // }, [isLoading]);
+
+  const items: MenuItem[] = [];
+
+  // items.push(
+  //   ...[
+  //     {
+  //       text: "holidays",
+  //       id: "0",
+  //     },
+  //     {
+  //       text: "holiday",
+  //       id: "1",
+  //     },
+  //     {
+  //       text: "us holidays",
+  //       id: "105",
+  //     },
+  //     {
+  //       text: "public holidays",
+  //       id: "139",
+  //     },
+  //     {
+  //       text: "holiday calendar",
+  //       id: "205",
+  //     },
+  //     {
+  //       text: "us holiday",
+  //       id: "314",
+  //     },
+  //     {
+  //       text: "holidays 2023",
+  //       id: "326",
+  //     },
+  //     {
+  //       text: "company holiday",
+  //       id: "405",
+  //     },
+  //     {
+  //       text: "company holidays",
+  //       id: "471",
+  //     },
+  //     {
+  //       text: "holiday list",
+  //       id: "513",
+  //     },
+  //   ]
+  // );
+  if (data && data.hits) {
+    items.push(...data.hits.map((hit) => ({ text: hit.term, id: hit.id })));
+  }
+  // console.log(JSON.stringify(items, undefined, 2));
+
+  const router = useRouter();
+
+  const filterFunctionNeedle = typedInput.trim()
+    ? new RegExp(`\\b${regexEscape(typedInput.trim())}`, "i")
+    : null;
+  const filteredItems = items.filter((item) => {
+    if (!filterFunctionNeedle) return true;
+    return filterFunctionNeedle.test(item.text);
+  });
+
+  let displayMenu = Boolean(filteredItems.length > 0 && typedInput.trim());
+  if (!filteredItems.length && !typedInput.trim()) {
+    const previous = getSubmittedQueries();
+    if (previous.length) {
+      filteredItems.push(...previous.map((text) => ({ text, id: text })));
+      displayMenu = true;
+      console.log(filteredItems);
+    }
+  }
 
   return (
-    <NavList>
-      <NavList.Item
-        href="/"
-        as={Link}
-        aria-current={asPath === "/" ? "page" : undefined}
-      >
-        Home
-      </NavList.Item>
-      <NavList.Item
-        href="/about"
-        as={Link}
-        aria-current={asPath === "/about" ? "page" : undefined}
-        defaultOpen={alwaysOpen}
-      >
-        About
-        <NavList.SubNav>
-          <NavList.Item
-            href="/about/things"
-            aria-current={asPath === "/about/things" ? "page" : undefined}
-            as={Link}
-          >
-            Things
-          </NavList.Item>
-          <NavList.Item
-            href="/about/general"
-            aria-current={asPath === "/about/general" ? "page" : undefined}
-            as={Link}
-            defaultOpen={alwaysOpen}
-          >
-            General
-            <NavList.SubNav>
-              <NavList.Item
-                href="/about/general/one"
-                aria-current={
-                  asPath === "/about/general/one" ? "page" : undefined
-                }
-                as={Link}
-              >
-                General 1
-              </NavList.Item>
-              <NavList.Item
-                href="/about/general/two"
-                aria-current={
-                  asPath === "/about/general/two" ? "page" : undefined
-                }
-                as={Link}
-              >
-                General 2
-              </NavList.Item>
-            </NavList.SubNav>
-          </NavList.Item>
-        </NavList.SubNav>
-      </NavList.Item>
-      <NavList.Item
-        href="/contact"
-        aria-current={asPath === "/contact" ? "page" : undefined}
-        as={Link}
-      >
-        Contact
-      </NavList.Item>
-    </NavList>
+    <form
+      onSubmit={(event) => {
+        event.preventDefault();
+        if (typedInput.trim()) {
+          setTypedInput("");
+          rememberSubmittedQuery(typedInput.trim());
+          router.push(`/?${new URLSearchParams({ query: typedInput })}`);
+          console.log("SUBMITTED");
+        }
+      }}
+    >
+      <FormControl>
+        <FormControl.Label id="autocompleteLabel-basic">
+          Pick a branch
+        </FormControl.Label>
+        <Autocomplete>
+          <Autocomplete.Input
+            value={typedInput}
+            onChange={(event) => setTypedInput(event.target.value)}
+          />
+          <Autocomplete.Overlay>
+            {displayMenu && (
+              <Autocomplete.Menu
+                filterFn={() => true}
+                items={filteredItems}
+                selectedItemIds={[]}
+                sortOnCloseFn={() => 0}
+                // aria-labelledby="autocompleteLabel-basic"
+                // loading={stillLoading}
+                onSelectedChange={(items: MenuItem | MenuItem[]) => {
+                  if (Array.isArray(items) && items.length > 0) {
+                    setTypedInput("");
+                    const text = items[0].text;
+                    rememberSubmittedQuery(text);
+                    router.push(`/?${new URLSearchParams({ query: text })}`);
+                    console.log("SELECTED");
+                  } else {
+                    console.warn("NO ITEMS!!!", items);
+                  }
+                }}
+              />
+            )}
+          </Autocomplete.Overlay>
+        </Autocomplete>
+      </FormControl>
+      <hr style={{ margin: 200 }} />
+
+      <ol>
+        {items.map((item) => (
+          <li key={item.id}>{item.text}</li>
+        ))}
+      </ol>
+    </form>
   );
+}
+
+function rememberSubmittedQuery(query: string, key = "previousSearches") {
+  if (!query.trim()) throw new Error("empty");
+
+  console.log("REMEMBER", { query });
+
+  try {
+    const previousQueries: string[] = JSON.parse(
+      sessionStorage.getItem(key) || "[]"
+    );
+    const newQueries = [query, ...previousQueries.filter((x) => x !== query)];
+    sessionStorage.setItem(key, JSON.stringify(newQueries.slice(0, 25)));
+  } catch (err) {
+    console.warn("Saving to local storage failed", err);
+  }
+}
+
+function getSubmittedQueries(key = "previousSearches") {
+  try {
+    const previousQueries: string[] = JSON.parse(
+      sessionStorage.getItem(key) || "[]"
+    );
+    return previousQueries;
+  } catch (err) {
+    console.warn("Retrieving from local storage failed", err);
+    return [];
+  }
+}
+
+function regexEscape(str: string) {
+  return str.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&");
+}
+
+export function useDebounce<T>(value: T, delay?: number): T {
+  const [debouncedValue, setDebouncedValue] = useState<T>(value);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setDebouncedValue(value), delay || 500);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [value, delay]);
+
+  return debouncedValue;
 }
