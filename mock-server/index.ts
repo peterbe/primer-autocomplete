@@ -20,6 +20,7 @@ const server = Bun.serve({
       pathname === "/api/search/typeahead" ||
       pathname === "/api/search/autocomplete"
     ) {
+      console.log("> SEARCH", search);
       return Response.json(await searchResults(new URLSearchParams(search)));
     } else if (pathname == "/") {
       return new Response("Hi");
@@ -61,7 +62,7 @@ async function searchResults(x: URLSearchParams) {
   }
   const t1 = new Date();
 
-  await sleep(Math.random());
+  await sleep(Math.random() * 3);
 
   const t2 = new Date();
 

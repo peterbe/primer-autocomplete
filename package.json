@@ -10,7 +10,7 @@
     "mock-server": "bun run --hot mock-server/index.ts"
   },
   "dependencies": {
-    "@primer/react": "35.32.0",
+    "@primer/react": "file:primer-react-36.3.0.tgz",
     "next": "13.5.5",
     "react": "^18",
     "react-dom": "^18",
